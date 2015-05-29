@@ -22,6 +22,8 @@ func hello(w http.ResponseWriter, r *http.Request) {
 }
 
 func login(w http.ResponseWriter, r *http.Request) {
+	fmt.Println("path:", r.URL.Path)
+	fmt.Println("scheme", r.URL.Scheme)
 	fmt.Println("method:", r.Method)
 	fmt.Println("Show login page")
 
@@ -29,7 +31,7 @@ func login(w http.ResponseWriter, r *http.Request) {
 		t, _ := template.ParseFiles("login.gtpl")
 		t.Execute(w, nil)
 	} else {
-		r.ParseForm()
+		r.ParseForm()			
 		fmt.Println("username:", r.Form["username"])
 		fmt.Println("password:", r.Form["password"])
 	}
