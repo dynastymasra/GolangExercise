@@ -14,6 +14,6 @@ func main() {
     fmt.Print("Input Variable > ")
     fmt.Scan(&a, &b)
     sum = a + b
-    fmt.Println("Total > ", uint(sum))
+    fmt.Println("Total > ",   uint(sum))
   }
 }
