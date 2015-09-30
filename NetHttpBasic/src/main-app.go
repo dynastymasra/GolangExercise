@@ -8,6 +8,14 @@ import (
 	"strings"
 )
 
+/**
+ * Created by Dynastymasra
+ * Name     : Dimas Ragil T
+ * Email    : dynastymasra@gmail.com
+ * LinkedIn : http://www.linkedin.com/in/dynastymasra
+ * Github   : https://github.com/dynastymasra
+ * Mobile and Backend Developer
+ */
 func hello(w http.ResponseWriter, r *http.Request) {
 	r.ParseForm()
 	fmt.Println(r.Form)
@@ -31,7 +39,7 @@ func login(w http.ResponseWriter, r *http.Request) {
 		t, _ := template.ParseFiles("login.gtpl")
 		t.Execute(w, nil)
 	} else {
-		r.ParseForm()			
+		r.ParseForm()
 		fmt.Println("username:", r.Form["username"])
 		fmt.Println("password:", r.Form["password"])
 	}

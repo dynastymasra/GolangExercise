@@ -2,11 +2,19 @@ package main
 
 import "fmt"
 
+/**
+ * Created by Dynastymasra
+ * Name     : Dimas Ragil T
+ * Email    : dynastymasra@gmail.com
+ * LinkedIn : http://www.linkedin.com/in/dynastymasra
+ * Github   : https://github.com/dynastymasra
+ * Mobile and Backend Developer
+ */
 type IPAddr [4]byte
 
 type Person struct {
 	Name string
-	Age int 
+	Age int
 }
 
 func (p Person) String() string {

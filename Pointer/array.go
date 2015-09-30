@@ -2,6 +2,14 @@ package main
 
 import "fmt"
 
+/**
+ * Created by Dynastymasra
+ * Name     : Dimas Ragil T
+ * Email    : dynastymasra@gmail.com
+ * LinkedIn : http://www.linkedin.com/in/dynastymasra
+ * Github   : https://github.com/dynastymasra
+ * Mobile and Backend Developer
+ */
 var pow = []int{1, 2, 4, 8, 16, 32, 64, 128}
 
 type Vertex struct {
@@ -25,7 +33,7 @@ func main() {
 	fmt.Println("slices")
 	p := []int{2, 3, 5, 7, 11, 13}
 	fmt.Println("p ==", p)
-	
+
 	for i := 0; i < len(p); i++ {
 		fmt.Printf("p[%d] == %d\n", i, p[i])
 	}
@@ -76,11 +84,9 @@ func main() {
 	for _, value := range meow {
 		fmt.Printf("%d\n", value)
 	}
-	
+
 	fmt.Println("maps")
 	m = make(map[string]Vertex)
 	m["test"] = Vertex{40.133, -34.34424}
 	fmt.Println(m["test"])
 }
-
-

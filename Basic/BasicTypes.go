@@ -1,10 +1,18 @@
-package main 
+package main
 
 import ("fmt"
 	"math/cmplx"
 	"math"
 )
 
+/**
+ * Created by Dynastymasra
+ * Name     : Dimas Ragil T
+ * Email    : dynastymasra@gmail.com
+ * LinkedIn : http://www.linkedin.com/in/dynastymasra
+ * Github   : https://github.com/dynastymasra
+ * Mobile and Backend Developer
+ */
 var (
 	Tobe bool = false
 	MaxInt uint64 = 1<<64 - 1
@@ -31,7 +39,7 @@ func main() {
 	var a float64 = math.Sqrt(float64(x*x + y*y))
 	var z int = int(a)
 	fmt.Printf("Type conversion int %v %v %v, float64 %v \n", x, y, z, a)
-	
+
 	p, o, d, g := 42, 54.5, "test", true
 	fmt.Printf("p is %T, o is %T, b is %T, g is %T \n", p, o, d, g)
 
@@ -39,7 +47,7 @@ func main() {
 	const World = "world"
 	fmt.Println("Hello", World)
 	fmt.Println("Test", Pi, "Day")
-	
+
 	const Truth = true
 	fmt.Println("Go rules?", Truth)
 }

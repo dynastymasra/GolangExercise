@@ -2,6 +2,14 @@ package main
 
 import "fmt"
 
+/**
+ * Created by Dynastymasra
+ * Name     : Dimas Ragil T
+ * Email    : dynastymasra@gmail.com
+ * LinkedIn : http://www.linkedin.com/in/dynastymasra
+ * Github   : https://github.com/dynastymasra
+ * Mobile and Backend Developer
+ */
 func loop(start, end int) int {
 	var i int
 	for k := start; k < end; k++ {
@@ -24,6 +32,6 @@ func main() {
 	}()
 
 	z := <-p
-	v := <-p	
+	v := <-p
 	fmt.Println(v, z)
 }

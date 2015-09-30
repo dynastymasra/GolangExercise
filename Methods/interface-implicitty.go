@@ -1,10 +1,18 @@
-package main 
+package main
 
 import (
 	"fmt"
 	"os"
 )
 
+/**
+ * Created by Dynastymasra
+ * Name     : Dimas Ragil T
+ * Email    : dynastymasra@gmail.com
+ * LinkedIn : http://www.linkedin.com/in/dynastymasra
+ * Github   : https://github.com/dynastymasra
+ * Mobile and Backend Developer
+ */
 type Reader interface {
 	Read(b []byte) (n int, err error)
 }

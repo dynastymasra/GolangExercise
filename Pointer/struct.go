@@ -2,6 +2,14 @@ package main
 
 import "fmt"
 
+/**
+ * Created by Dynastymasra
+ * Name     : Dimas Ragil T
+ * Email    : dynastymasra@gmail.com
+ * LinkedIn : http://www.linkedin.com/in/dynastymasra
+ * Github   : https://github.com/dynastymasra
+ * Mobile and Backend Developer
+ */
 type Vertex struct {
 	X, Y int
 }
@@ -31,4 +39,3 @@ func main() {
 	fmt.Println("struct literal")
 	fmt.Println(v1, pOne, v2, v3)
 }
-	

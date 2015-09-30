@@ -2,6 +2,14 @@ package main
 
 import "fmt"
 
+/**
+ * Created by Dynastymasra
+ * Name     : Dimas Ragil T
+ * Email    : dynastymasra@gmail.com
+ * LinkedIn : http://www.linkedin.com/in/dynastymasra
+ * Github   : https://github.com/dynastymasra
+ * Mobile and Backend Developer
+ */
 type Person struct {
 	Name string
 	Age int
@@ -16,7 +24,7 @@ type Student struct {
 
 func main() {
 	dimas := Student{Person: Person{"Dimas Ragil T", 23, 50}, Speciality: "Backend and Mobile"}
-	
+
 	fmt.Printf("Name : %v\nAge : %v\nWeight : %v\nSpeciality : %v\n", dimas.Name, dimas.Age, dimas.Weight, dimas.Speciality)
 
 	dimas.Skills = append(dimas.Skills, "Java", "Scala", "Android", "Go")
@@ -26,4 +34,4 @@ func main() {
 	for _, v := range dimas.Skills {
 		fmt.Println(v)
 	}
-} 
+}

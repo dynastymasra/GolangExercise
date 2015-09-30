@@ -1,4 +1,4 @@
-package main 
+package main
 
 
 import (
@@ -7,6 +7,14 @@ import (
 	"time"
 )
 
+/**
+ * Created by Dynastymasra
+ * Name     : Dimas Ragil T
+ * Email    : dynastymasra@gmail.com
+ * LinkedIn : http://www.linkedin.com/in/dynastymasra
+ * Github   : https://github.com/dynastymasra
+ * Mobile and Backend Developer
+ */
 func main() {
 	fmt.Printf("Go runs on ")
 	switch os := runtime.GOOS; os {
@@ -18,7 +26,7 @@ func main() {
 			fmt.Printf("%s", os)
 		}
 	fmt.Println()
-	
+
 	fmt.Println("When saturday?")
 	today := time.Now().Weekday()
 	fmt.Println("today =", today)
@@ -47,4 +55,3 @@ func main() {
 			fmt.Println("good evening")
 	}
 }
-

@@ -2,9 +2,17 @@ package main
 
 import "fmt"
 
+/**
+ * Created by Dynastymasra
+ * Name     : Dimas Ragil T
+ * Email    : dynastymasra@gmail.com
+ * LinkedIn : http://www.linkedin.com/in/dynastymasra
+ * Github   : https://github.com/dynastymasra
+ * Mobile and Backend Developer
+ */
 type incFuncType func()
 type getFuncType func() int
-	
+
 func myCounter(initCount int) (incFuncType, getFuncType) {
 	count := initCount
 	incriment := func() {
