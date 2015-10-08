@@ -2,6 +2,14 @@ package main
 
 import "fmt"
 
+/**
+ * Created by Dynastymasra
+ * Name     : Dimas Ragil T
+ * Email    : dynastymasra@gmail.com
+ * LinkedIn : http://www.linkedin.com/in/dynastymasra
+ * Github   : https://github.com/dynastymasra
+ * Mobile and Backend Developer
+ */
 func main() {
   var n int
 
@@ -44,7 +52,7 @@ func printData(k int, t []int) {
   }
 
   if ontime >= k {
-    fmt.Printf("NO, Class is Started, Ontime %v, Late %v, Min %v\n", ontime, late, k)    
+    fmt.Printf("NO, Class is Started, Ontime %v, Late %v, Min %v\n", ontime, late, k)
   } else {
     fmt.Printf("YES, Class is Cancelled, Ontime %v, Late %v, Min %v\n", ontime, late, k)
   }
