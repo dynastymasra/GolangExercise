@@ -5,8 +5,23 @@ import (
   "math/big"
 )
 
+/**
+ * Created by Dynastymasra
+ * Name     : Dimas Ragil T
+ * Email    : dynastymasra@gmail.com
+ * LinkedIn : http://www.linkedin.com/in/dynastymasra
+ * Github   : https://github.com/dynastymasra
+ * Mobile and Backend Developer
+ */
 func main() {
+  var n big.Int
 
+  fmt.Print("Input Value Big n : ")
+  fmt.Scan(&n)
+  fmt.Println("Factorial Big >", factorial(&n))
+  fmt.Println("Value Factorial Dynamic 10")
+  r := big.NewInt(10)
+  fmt.Println("Factorial >", factorial(r))
 }
 
 func factorial(n *big.Int) (result *big.Int) {
